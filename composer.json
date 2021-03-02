@@ -1,0 +1,23 @@
+{
+    "name": "pavel-shevchenko/php8-loan-payments-calc",
+    "type": "library",
+    "description": "Loan payments calculator with the ability to calculate the schedule of annuity, as well as differentiated payments.",
+    "keywords": [
+        "loan",
+        "credit",
+        "mortgage",
+        "annuity"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Shevchenko",
+            "email": "e-rider@mail.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-calendar": "*"
+    }
+}
