@@ -179,9 +179,9 @@ abstract class LoanCalculator
      * @param string $key - Origin of value
      * @param int|string $monthNumber - Month for which intermediate values were calculated
      *
-     * @return float
+     * @return float|bool
      */
-    protected function getCached(string $key, int|string $monthNumber): float
+    protected function getCached(string $key, int|string $monthNumber): float|bool
     {
         return $this->cache[$key][$monthNumber] ?? false;
     }
